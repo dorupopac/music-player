@@ -13,6 +13,28 @@
     <title>Music Player</title>
   </head>
   <body>
-      
+    <div class="player-container">
+      <!-- Song -->
+      <div class="img-container">
+        <img src="img/img-1.jpg" alt="album art">
+      </div>
+      <h2 id="title">Name of the song</h2>
+      <h3 id="artist">Artist name</h3>
+      <audio src="music/track-1.mp3"></audio>
+      <!-- Progress -->
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+          <span id="current-time">0:00</span>
+          <span id="duration">2:06</span>
+        </div>
+      </div>
+      <!-- Controls -->
+      <div class="player-controls">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play main-button" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+      </div>
+    </div>
   </body>
 </html>
